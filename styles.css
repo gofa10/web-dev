@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.nav-bar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EAECF0;
+    padding: 3px 120px;
+}
+
+.logo-vriant {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo-vriant img{
+    width: 32px;
+    height: 32px;
+}
+
+.logo-vriant h2{
+    color: #354153;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.logo-items img{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.side-bar .nav-bar-items ,nav ,ul,li,a{
+    display: flex;
+    color: #0D1421;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    gap: 40px;
+}
+
+.logo-items ,a{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.content{
+    padding: 30px 160px;
+}
+
+.action-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.leading-icon {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.leading-icon a,img{
+    width: 20px;
+    height: 20px;
+
+}
+
+.leading-icon h2{
+    width: 73px;
+    height: 24px;
+    color: #354153;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button-options{
+    display: flex;
+}
+
+.button-options select{
+    border: none;
+    outline: none;
+    
+}
+
+.button-options select , option{
+    font-size: 16px;
+    font-weight: 600;
+    color: #354153;
+    background-color: #ffffff;
+}
+
+.content-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.content-items .info-card{
+   
+    /* background-color: #123; */
+    height: 400px;
+    flex-basis: 100px;
+    flex-grow: 1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.info-card img{
+    width: 200px;
+    height: 300px;
+}
+
+.info-card{
+    /* border: 1px solid #0D1421; */
+    padding: 10px;
+}
+
+.data h2{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+span ,p{
+    color: #354153;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+span{
+    color: #667085;
+}
+
+
+@media screen and (max-width:600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0px;
+    }
+    .nav-bar nav{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .action-header{
+        display: flex;
+        gap: 30px;
+    }
+    .content{
+        padding: 30px 50px;
+    }
+}
+
+    /* Loader Styles */
+    .loader {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 5px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 5px solid #354153;
+        width: 50px;
+        height: 50px;
+        animation: spin 1s linear infinite;
+        display: none; /* Hidden by default */
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+
+.footer{
+    padding-left: 30px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Interactive Layout</title>
+</head>
+<body>
+  <!-- Loader -->
+  <div class="loader" id="loader"></div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="nav-bar">
+      <nav>
+        <div class="logo-vriant">
+          <img src="imege/asterisk.png" alt="star">
+          <h2>Вариант 1</h2>
+        </div>
+        <div class="nav-bar-items">
+          <ul>
+            <li><a href="#">Верхняя одежда</a></li>
+            <li><a href="#">Брюки</a></li>
+            <li><a href="#">Аксессуары</a></li>
+          </ul>
+        </div>
+        <div class="logo-items">
+          <a href="#" id="user-button"> <img src="imege/user.png" alt="user"></a>
+          <a href="#" id="basket-button"> <img src="imege/basket.png" alt="basket"></a>
+        </div>
+      </nav>
+    </div>
+    <div class="content">
+      <div class="action-header">
+        <div class="leading-icon">
+          <a href="#" id="settings-button"><img src="imege/settings.png" alt="settings"></a>
+          <h2>Фильтры</h2>
+        </div>
+        <div class="button-options">
+          <select id="filter-options">
+            <option value="default">По умолчанию</option>
+            <option value="available">Сначала доступные</option>
+            <option value="expensive">Сначала дорогие</option>
+          </select>
+        </div>
+      </div>
+      <div class="content-items">
+        <div class="info-card">
+          <img src="imege/09475a5c02a10246e0ec750f577fc1b5.png" alt="">
+          <div class="data">
+            <h2>30 000 руб</h2>
+            <span>Бренд</span><p>Каменный остров</p>
+            <span>Жилет с нашивкой компасом </span>
+          </div>
+        </div>
+        <div class="info-card">
+          <img src="imege/7f1154233ca8062ec8d7c0e60a0f6318.png" alt="">
+          <div class="data">
+            <h2>18 800 руб</h2>
+            <span>Бренд</span><p>Каменный остров</p>
+            <span>Жилет с нашивкой компасом </span>
+          </div>
+        </div>
+        <div class="info-card">
+          <img src="imege/d047cfec2dcd6e38152195dda4e98a03.png" alt="">
+          <div class="data">
+            <h2>47 300 руб</h2>
+            <span>Бренд</span><p>Каменный остров</p>
+            <span>Жилет с нашивкой компасом </span>
+          </div>
+        </div>
+        <div class="info-card">
+          <img src="imege/ff6736d7fb520bc6deadc9712ffd308a.png" alt="">
+          <div class="data">
+            <h2>19 000 руб</h2>
+            <span>Бренд</span><p>Каменный остров</p>
+            <span>Жилет с нашивкой компасом </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+        <p class="footer2">&copy; © Вариант 1. 
+            Абдельбар Юсеф, группа ПИ-22-2
+        </p>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
